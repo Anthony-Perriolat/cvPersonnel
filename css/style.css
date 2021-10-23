@@ -1,5 +1,6 @@
 #accueil{
-    background-image: url("../img/paysage-tenerife.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color: #2A2C24;
+}
+#secondPage{
+    background-color: #EAE2B7;
 }
