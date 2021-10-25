@@ -10,27 +10,31 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body>
-
-<div id="pagepiling">
-    <div class="section" id="accueil">
-        <h2 class="text-center">Developpeur depuis <span id="start"></span>se qui fait exactement</h2>
+<body id="body">
+<header class="row container-fluid mb-5">
+    <div class="col-2"><img class="img-fluid" src="img/logoHeader.png"></div>
+    <div class="col"></div>
+</header>
+    <section id="accueil">
+        <h2 class="text-center mb-5">Bonjour 👋‍, je m’appelle Anthony
+            Perriolat, dévelppeur Web 💻 depuis
+            <br/> ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️ </h2>
         <div class="row">
         <div class="col-3"></div>
-        <div class="col" id="clockdiv">
-            <div>
+        <div class="col container-fluid d-flex flex-row" id="clockdiv">
+            <div class="countdown container-fluid">
                 <span class="days"></span>
                 <div class="smalltext">Jour</div>
             </div>
-            <div>
+            <div class="countdown container-fluid">
                 <span class="hours"></span>
                 <div class="smalltext">Heures</div>
             </div>
-            <div>
+            <div class="countdown container-fluid">
                 <span class="minutes"></span>
                 <div class="smalltext">Minutes</div>
             </div>
-            <div>
+            <div class="countdown container-fluid">
                 <span class="seconds"></span>
                 <div class="smalltext">Secondes</div>
             </div>
@@ -38,10 +42,22 @@
         <div class="col-3"></div>
         </div>
 
-    </div>
-    <div class="section" id="secondPage">Some section</div>
-<!--    <div class="section">Some section</div>-->
-</div>
+        <section>
+        <div class="d-flex flex-row">
+            <div class="col-2"></div>
+            <div class="back-flou">
+            <div class="col mx-3 border border-2 rounded border-light text-light"><h1>Déleoppement
+                Backend</h1><p>PHP, framework PHP Laravel, Base de données : MySQL, PostgreSQL.</p></div>
+            </div>
+            <div class="col mx-3 border border-2 rounded border-light text-light"><h1>Déleoppement
+                Front</h1><p>PHP, framework PHP Laravel, Base de données : MySQL, PostgreSQL.</p></div>
+            <div class="col mx-3 border border-2 rounded border-light text-light"><h1>Systéme et réseaux</h1><p>PHP, framework PHP Laravel, Base de données : MySQL, PostgreSQL.</p></div>
+            <div class="col-2"></div>
+        </div>
+        </section>
+
+    </section>
+<!--    <div class="section" id="secondPage">Some section</div>-->
 
 <script src="pagePiling/jquery-1.11.min.js"></script>
 <script src="js/js.js"></script>

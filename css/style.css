@@ -1,6 +1,21 @@
-#accueil{
+#body{
     background-color: #141413;
 }
-#secondPage{
-    background-color: #141413;
+header{
+    height: 8rem;
 }
+.logoHeader{
+    background-image: url("../img/logoHeader.png");
+    background-size: cover;
+    background-position: center;
+}
+.back-flou{
+    box-shadow: 30px 30px 80px #326899;
+
+}
+#accueil h2{
+    color: #f2f2f2;
+}
+/*#secondPage{*/
+/*    background-color: #141413;*/
+/*}*/
