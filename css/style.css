@@ -1,5 +1,6 @@
 #body{
     background-color: #141413;
+    box-sizing: content-box;
 }
 header{
     height: 8rem;
@@ -7,6 +8,17 @@ header{
 .logoHeader{
     background-image: url("../img/logoHeader.png");
     background-size: cover;
+}
+.barre-flou:before {
+    display: block;
+    content: '';
+    width: 5rem;
+    height: .25rem;
+    background-color: #326899;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 .2rem 1rem #326899;
+    animation: border-title-top-animation 4s;
 }
 .back-flou{
     box-shadow: 0 0 6rem #326899;
@@ -16,6 +28,12 @@ header{
 }
 .separateur{
     height: 10em;
+}
+.separateur1{
+    height: 6em;
+}
+.separateur2{
+    height: 3em;
 }
 /*#secondPage{*/
 /*    background-color: #141413;*/
