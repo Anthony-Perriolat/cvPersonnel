@@ -2,6 +2,7 @@
     background-color: #141413;
     box-sizing: content-box;
     margin: 0;
+    color: #f2f2f2;
 }
 header{
     height: 8rem;
@@ -23,9 +24,6 @@ header{
 }
 .back-blur{
     box-shadow: 0 0 4rem #326899;
-}
-#accueil h2{
-    color: #f2f2f2;
 }
 .separateur{
     height: 10em;

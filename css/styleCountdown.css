@@ -1,5 +1,4 @@
 #clockdiv{
-    font-family: sans-serif;
     color: black;
     display: inline-block;
     font-weight: 100;
@@ -8,11 +7,15 @@
 }
 
 .countdown {
-    background-image: url("../img/flouWithe.png");
-    background-size: cover;
+    margin:0;
+    padding:0;
+    /*background: url("../img/flouWithe.png") no-repeat center fixed;*/
+    background-color: #f2f2f2;
+    border: #f2f2f2;
+    box-shadow: 2px 2px 3rem #f2f2f2;
+    /*background-repeat: no-repeat;*/
 }
 #clockdiv > div{
-    padding: 10px;
     border-radius: 3px;
     display: inline-block;
 }
@@ -27,7 +30,6 @@
 .smalltext{
     padding-top: 5px;
     font-size: 16px;
-    filter: blur(0px);
     font-weight: bolder;
 }
 
