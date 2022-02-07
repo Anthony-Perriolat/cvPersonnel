@@ -4,150 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developpeur / Concepteur de projet - Anthony Perriolat</title>
-    <link rel="stylesheet" type="text/css" href="pagePiling/jquery.pagepiling.css"/>
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"-->
+<!--          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/styleCountdown.css">
-    <link rel="stylesheet" href="css/styleTimeline.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body id="body">
-<header class="row container-fluid mb-5">
-    <div class="col-3"><img class="img-fluid w-50" src="img/logoHeader.png"></div>
-    <div class="col"></div>
-</header>
-<div class="separateur1"></div>
-<main id="accueil">
-    <h2 class="text-center mb-5">Bonjour 👋‍, je m’appelle Anthony
-        Perriolat, dévelppeur Web 💻 depuis
-    </h2>
-        <div class="separateur1"></div>
-    <div class="text-center fs-2">⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️</div>
-    <div class="separateur"></div>
-    <div class="container">
-        <div class="col-4"></div>
-        <div class="container-fluid d-flex flex-row justify-content-evenly"  id="clockdiv">
-            <div class="countdown col-2">
-                <span class="days"></span>
-                <div class="smalltext">Jour</div>
-            </div>
-            <div class="countdown col-2">
-                <span class="hours"></span>
-                <div class="smalltext">Heures</div>
-            </div>
-            <div class="countdown col-2">
-                <span class="minutes"></span>
-                <div class="smalltext">Minutes</div>
-            </div>
-            <div class="countdown col-2 ">
-                <span class="seconds"></span>
-                <div class="smalltext">Secondes</div>
-            </div>
-        </div>
-        <div class="col-4"></div>
+<body>
+<header>
+    <div>
+        <h1>Anthony Perriolat</h1>
     </div>
-    <div class="separateur"></div>
-    <section>
-        <div>
-            <h2 class="barre-flou mx-5 ">Compétences</h2>
-        </div>
-        <div class="separateur1"></div>
-        <div class="d-flex flex-md-row flex-column">
-            <div class="col"></div>
-            <div class="col-10 col-md-3 p-4 pt-2 mx-md-4 border border-1 rounded border-light back-blur text-light">
-                <h1 class="blockquote">Développement Backend</h1>
-                <p>Mes trois langage de spécialité sont PHP, framework Laravel, Python, framework Django, JavaScript, framework Nodejs ainsi que la gestion Base de données : MySQL, PostgreSQL.</p>
-            </div>
-            <div class="col-10 col-md-3 p-4 pt-2 mx-md-4 border border-1 rounded border-light back-blur text-light">
-                <h1 class="blockquote">Développement frontend</h1>
-                <p>Pour le traitement coté client VueJs, React, React Native, js sont mes outils avec le quelle je travaille. </p>
-            </div>
-            <div class="col-10 col-md-3 p-4 pt-2 mx-md-4 border border-1 rounded border-light back-blur text-light">
-                <h1 class="blockquote">Système et réseaux</h1>
-                <p>Apache, Ngix, mysql, sqlite, PostgreSQL, mariadb, differente distribution linux, IoT, DNS, Referencement / Seo</p>
-            </div>
-            <div class="col"></div>
-        </div>
-        <div class="separateur1"></div>
-    </section>
-    <div class="separateur1"></div>
-    <section>
-        <div>
-            <h2 class="barre-flou mx-5 ">Quelques mots sur mon parcours</h2>
-            <div class="row mt-5">
-                <div class="col-1"></div>
-                <p class="col">J'ai commençais ma carrier dans la vente et la gestion d'entreprise, suite à la conjoncture j'ai du m'orienter dans le domaine qui me passionne, le developpement informatique. A partir de rien crée des projet est ma passion et la continuté de ma carriere.</p>
-                <div class="col-1"></div>
-            </div>
-        </div>
-        <div class="separateur2"></div>
-        <ul class="timeline m-5">
-            <li>
-                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="timeline-title">Gestion d'entreprise</h4>
-                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2016 à 2020 </small></p>
-                    </div>
-                    <div class="timeline-body">
-                        <p>Gestion d'entreprise </p>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p>Montage d'une société entre deux talents <a>Corentin Peuvrel</a> spécialiste hardward. Cette société a pour but de repondre au besoin de collectivitées local, PTE et PME, et de projet ayant besoin d'accompagnement du </p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="timeline-title">Application Freelance dans la technologies des drones</h4>
-                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2021 </small></p>
-                    </div>
-                    <div class="timeline-body">
-                        <p>Developement du projet d'annonce freelance pour videaste spécialisé pour les drones.</p>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="timeline-title">Fromation Developpeur Web</h4>
-                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2020 </small></p>
-
-                    </div>
-                    <div class="timeline-body">
-                        <p>J'ai passé une formation dans le developpement web avec le campus in the alps combiné avec une alterance dans une start up, developpant une application melangant IoT (connection de materiel électronique), Intelligence artificiel, developpement web (sous django)</p>
-                    </div>
-                </div>
-            </li>
-
-        </ul>
-    </section>
-    <section>
-        <div>
-            <h2 class="barre-flou mx-5 ">Contact</h2>
-        </div>
-    </section>
+    <div class="navbar_cv">
+        <nav>
+            <a href="#"><span>Curiculom vitaé</span></a>
+            <a href="#"><span>Talents</span></a>
+            <a href="#"><span>Projet</span></a>
+            <a href="#"><span>Contact</span></a>
+        </nav>
+    </div>
+</header>
+<section>
+    <div class="box">
+        <div class="box_title_1"><span>Developpement web</span></div>
+        <div class="box_img_1"><img src="img/dev.jpeg"></div>
+    </div>
+    <div class="box">
+        <div class="box_img_2"><img src="img/buissness.jpeg"></div>
+        <div class="box_title_2"><span>Developpement Buissness</span></div>
+    </div>
+    <div class="box">
+        <div class="box_title_3"><span>Photographie Aérienne</span></div>
+        <div class="box_img_3"><img src="img/drone.jpeg"></div>
+    </div>
+</section>
+<main>
 
 </main>
-
-<script src="pagePiling/jquery-1.11.min.js"></script>
-<script src="js/js.js"></script>
-<script type="text/javascript" src="pagePiling/jquery.pagepiling.js"></script>
-<script type="text/javascript" src="js/piling.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
 </body>
 </html>

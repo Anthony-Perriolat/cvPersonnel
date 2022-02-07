@@ -1,39 +1,95 @@
-#body{
-    background-color: #141413;
-    box-sizing: content-box;
-    margin: 0;
-    color: #f2f2f2;
+@font-face {
+    font-family: "rufina";
+    src: url("/font/Rufina/Rufina-Regular.ttf") format("ttf"),
+    url("/font/Rufina/Rufina-Bold.ttf") format("ttf")
+}
+@font-face {
+    font-family: "ruluko";
+    src: url("/font/Ruluko/Ruluko-Regular.ttf") format("ttf")
 }
 body{
-    overflow-x: hidden;
-}
-header{
-    height: 8rem;
+    margin-left: 20em;
+    margin-right: 20em;
+    /*font*/
+    font-family: "ruluko", sans-serif;
+    color: #696773;
+    /*font-size: 24px;*/
+    /*line-height: 30px;*/
 }
 
-.barre-flou:before {
-    display: block;
-    content: '';
-    width: 5rem;
-    height: .25rem;
-    background-color: #326899;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 .2rem 1rem #326899;
-    animation: border-title-top-animation 4s;
+/*Header*/
+header{
+    margin-top: 15vh;
 }
-.back-blur{
-    box-shadow: 0 0 4rem #326899;
+header .navbar_cv{
+    position: absolute;
+    left: 0;
+    width: 60vw;
+    height: 12vh;
+    background-color: #C3CFD5;
+
 }
-.separateur{
-    height: 10em;
+.navbar_cv nav{
+    margin-left: 20vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
 }
-.separateur1{
-    height: 6em;
+.navbar_cv nav a{
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.separateur2{
-    height: 3em;
+.navbar_cv nav a span{
+    text-align: center;
 }
-/*#secondPage{*/
-/*    background-color: #141413;*/
-/*}*/
+/*Section*/
+section{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.box{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.box img{
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.box span{
+    margin: auto;
+}
+.box_title_1{
+    height: 50%;
+    display: flex;
+    background-color: #EEE6E6;
+}
+.box_img_1{
+    height: 50%;
+}
+.box_title_2{
+    height: 50%;
+    display: flex;
+    background-color: #C3CFD5;
+}
+.box_img_2{
+    height: 50%;
+}
+.box_title_3{
+    height: 50%;
+    display: flex;
+    background-color: #EEE6E6;
+}
+.box_img_3{
+    height: 50%;
+}
+/*Main*/
+
+
