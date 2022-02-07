@@ -8,13 +8,12 @@
     src: url("/font/Ruluko/Ruluko-Regular.ttf") format("ttf")
 }
 body{
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: 15vw;
+    margin-right: 15vw;
     /*font*/
     font-family: "ruluko", sans-serif;
     color: #696773;
-    /*font-size: 24px;*/
-    /*line-height: 30px;*/
+    background-color: #F1F1F9;
 }
 
 /*Header*/
@@ -25,6 +24,7 @@ header .navbar_cv{
     position: absolute;
     left: 0;
     width: 60vw;
+    max-height: 70px;
     height: 12vh;
     background-color: #C3CFD5;
 
@@ -46,15 +46,14 @@ header .navbar_cv{
 }
 /*Section*/
 section{
-    margin-top: 30vh;
+    margin-top: 15vh;
     display: flex;
     flex-direction: row;
-    height: 80vh;
 }
 .box{
-    margin-left: 5vw;
     display: flex;
     flex-direction: column;
+    height: 30vh;
     width: 100%;
 }
 .box img{
@@ -91,5 +90,57 @@ section{
     height: 50%;
 }
 /*Main*/
+main{
+    margin-top: 15vh;
+}
+.box_theme_1{
+    display: flex;
+    flex-direction: row;
+}
+.box_theme_1 .box_theme_text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3vw;
+    padding: 3vh 2vw 3vh 2vw;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #EEE6E6;
 
+}
+.box_theme_2{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+.box_theme_2 .box_theme_text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3vw;
+    padding: 3vh 2vw 3vh 2vw;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #C3CFD5;
+}
+.box_theme_2 img{
+    position: relative;
+    top: 14%;
+}
+.box_theme_3{
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: row;
+}
+.box_theme_3 .box_theme_text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3vw;
+    padding: 3vh 2vw 3vh 2vw;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #696773;
+    color: #F1F1F9;
+}
+.box_theme_3 img{
+    position: relative;
+}
 
