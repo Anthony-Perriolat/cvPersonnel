@@ -46,14 +46,14 @@ header .navbar_cv{
 }
 /*Section*/
 section{
-    margin-top: 15vh;
+    margin-top: 20vh;
     display: flex;
     flex-direction: row;
 }
 .box{
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 40vh;
     width: 100%;
 }
 .box img{
@@ -131,16 +131,66 @@ main{
     flex-direction: row;
 }
 .box_theme_3 .box_theme_text{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 3vw;
+    margin: auto auto auto 3vw;
     padding: 3vh 2vw 3vh 2vw;
     height: 50%;
     border-radius: 10px;
     background-color: #696773;
     color: #F1F1F9;
 }
-.box_theme_3 img{
-    position: relative;
+.box_theme_3 #img_one{
+    margin-top: -5%;
+    margin-bottom: 30%;
+}
+.box_theme_3 #img_two{
+    margin-left: -50%;
+}
+/*social box*/
+.box_social{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.box_social strong{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.box_social .social_img{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*talent section*/
+/*https://codepen.io/rohitutekar/pen/porxpvR*/
+.box_competence{
+
+    padding: 5%;
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+    background-color: #EEE6E6;
+}
+.box_competence_dev{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box_competence_dev div{
+    width: 50%;
+}
+.box_competence .progress-bar {
+
+    padding: 1vh;
+    height: 2vh;
+
+    border-radius: 100px;
+
+    background-color: #696773;
 }
 
+.box_competence .bar {
+    width: 80%;
+    height: 100%;
+    background-color: #C3CFD5;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 10px #C3CFD5;
+}
