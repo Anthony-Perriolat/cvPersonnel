@@ -10,6 +10,7 @@
 body{
     margin-left: 15vw;
     margin-right: 15vw;
+    margin-bottom: 0;
     /*font*/
     font-family: "ruluko", sans-serif;
     color: #696773;
@@ -165,7 +166,6 @@ main{
 
     padding: 5%;
     width: 100%;
-    height: 60vh;
     border-radius: 10px;
     background-color: #EEE6E6;
 }
@@ -193,4 +193,65 @@ main{
     background-color: #C3CFD5;
     border-radius: 100px;
     box-shadow: inset 0px 0px 10px #C3CFD5;
+}
+.box_competence_business{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #C3CFD5;
+}
+.box_competence_business div{
+    width: 50%;
+}
+.box_message_cv{
+    margin-top: 5vh;
+}
+.box_msg_left{
+    display: flex;
+    justify-content: start;
+}
+.msg_left{
+    padding: 3%;
+    width: 40%;
+    background-color: #C3CFD5;
+    border-radius: 30px 5px 30px 5px;
+}
+.box_msg_left::before{
+    content: "•";
+    color: red;
+}
+.box_msg_right{
+    display: flex;
+    justify-content: end;
+}
+.box_msg_right::after{
+    content: "•";
+    color: red;
+}
+.msg_right{
+    padding: 3%;
+    width: 40%;
+    background-color: #C3CFD5;
+    border-radius: 5px 30px 5px 30px;
+}
+/*footer*/
+footer{
+    margin: 14vh -15vw 0 -15vw;
+    height: 10vh;
+    background-color: #C3CFD5;
+}
+.header_btn{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 50%;
+    background-color: #696773;
+}
+.header_btn a{
+    margin: auto;
+}
+.header_btn img{
+    width: 3vw;
+    height: 3vh;
 }
