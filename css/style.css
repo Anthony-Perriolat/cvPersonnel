@@ -163,11 +163,13 @@ main{
     justify-content: space-evenly;
 }
 .social_img_zoom{
+    transition-duration: 1s, 2s;
     -webkit-transform:scale(1.5); /* Safari et Chrome */
     -moz-transform:scale(1.5); /* Firefox */
     -ms-transform:scale(1.5); /* Internet Explorer 9 */
     -o-transform:scale(1.5); /* Opera */
     transform:scale(1.5);
+
 }
 /*talent section*/
 /*https://codepen.io/rohitutekar/pen/porxpvR*/
