@@ -28,6 +28,7 @@ header .navbar_cv{
     max-height: 70px;
     height: 12vh;
     background-color: #C3CFD5;
+    border-radius: 0 10px 10px 0;
 
 }
 .navbar_cv nav{
@@ -42,6 +43,7 @@ header .navbar_cv{
     margin-top: auto;
     margin-bottom: auto;
     text-decoration: none;
+    font-weight: bold;
     color: #696773;
 }
 .navbar_cv nav a span{
@@ -49,14 +51,13 @@ header .navbar_cv{
 }
 /*Section*/
 section{
-    margin-top: 20vh;
+    margin-top: 30vh;
     display: flex;
     flex-direction: row;
 }
 .box{
     display: flex;
     flex-direction: column;
-    height: 40vh;
     width: 100%;
 }
 .box img{
@@ -67,11 +68,35 @@ section{
 }
 .box span{
     margin: auto;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+}
+.read_more{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1vh 1vw 1vh 1vw;
+    height: 3vh;
+    width: 3vw;
+    background-color: #C3CFD5;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #696773;
+
 }
 .box_title_1{
     height: 50%;
     display: flex;
     background-color: #EEE6E6;
+}
+.box_title_1:hover, .box_title_2:hover, .box_title_3:hover{
+    transition-duration: 1s, 2s;
+    -webkit-transform:scale(0.8); /* Safari et Chrome */
+    -moz-transform:scale(0.8); /* Firefox */
+    -ms-transform:scale(0.8); /* Internet Explorer 9 */
+    -o-transform:scale(0.8); /* Opera */
+    transform:scale(0.8);
 }
 .box_img_1{
     height: 50%;
@@ -174,7 +199,6 @@ main{
 /*talent section*/
 /*https://codepen.io/rohitutekar/pen/porxpvR*/
 .box_competence{
-
     padding: 5%;
     width: 100%;
     border-radius: 10px;
@@ -185,16 +209,15 @@ main{
     flex-wrap: wrap;
     width: 100%;
 }
-.box_competence_dev div{
+.box_competence_dev > div{
+    margin-top: 1rem;
     width: 50%;
 }
 .box_competence .progress-bar {
-
     padding: 1vh;
-    height: 2vh;
-
+    height: 1vh;
+    width: 80%;
     border-radius: 100px;
-
     background-color: #696773;
 }
 
@@ -206,6 +229,7 @@ main{
     box-shadow: inset 0px 0px 10px #C3CFD5;
 }
 .box_competence_business{
+    margin-top: 2rem;
     padding: 1%;
     display: flex;
     flex-wrap: wrap;
@@ -213,7 +237,8 @@ main{
     border-radius: 10px;
     background-color: #C3CFD5;
 }
-.box_competence_business div{
+.box_competence_business > div{
+    margin-top: 1rem;
     width: 50%;
 }
 .box_message_cv{
