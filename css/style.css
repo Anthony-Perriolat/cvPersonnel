@@ -410,7 +410,9 @@ footer{
         margin-top: 3vh;
         margin-bottom: 5vh;
     }
-
+    .social_img{
+        flex-wrap: wrap;
+    }
     .box_social strong{
         margin-bottom: 2vh;
     }
