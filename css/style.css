@@ -428,6 +428,10 @@ footer{
     background-color: #C3CFD5;
     margin: 1%;
 }
+.projet_contraire a {
+    text-decoration: none;
+    color: #696773;
+}
 .projet_img{
     margin: auto;
 }
